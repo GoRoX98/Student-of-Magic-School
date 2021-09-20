@@ -113,13 +113,25 @@ MonoBehaviour:
   _subjects:
   - Name: Charms
     _subjectHard: 3
-    Sprite: {fileID: 21300000, guid: 9c2fb6d2ca41aa04a88ee1e924c4a481, type: 3}
+    Sprite:
+    - {fileID: 21300000, guid: 9c2fb6d2ca41aa04a88ee1e924c4a481, type: 3}
+    - {fileID: 21300000, guid: 3697a9d39608272408ce0ce679580c8c, type: 3}
+    - {fileID: 21300000, guid: 9fe39f6be8a36c341b45a35dd9f97893, type: 3}
+    - {fileID: 21300000, guid: 49bdf5fbfb1cab0409bae21259ecd6ff, type: 3}
   - Name: Potions
     _subjectHard: 5
-    Sprite: {fileID: 21300000, guid: 3697a9d39608272408ce0ce679580c8c, type: 3}
+    Sprite:
+    - {fileID: 21300000, guid: 1a7e2bd57cf55f847bdb3eb079de7a9e, type: 3}
+    - {fileID: 21300000, guid: ded38efee77c3434a9cbbcdc04666aae, type: 3}
+    - {fileID: 21300000, guid: 7fd79586d9cab564e804689668b27933, type: 3}
+    - {fileID: 21300000, guid: aadcdf9570182d0498eba52e8d8b0179, type: 3}
   - Name: DADA
     _subjectHard: 6
-    Sprite: {fileID: 21300000, guid: 49bdf5fbfb1cab0409bae21259ecd6ff, type: 3}
+    Sprite:
+    - {fileID: 21300000, guid: 0fc15d450aaab5b479a18b6755d3728a, type: 3}
+    - {fileID: 21300000, guid: 25369d32d657e71428f7662ebbc98541, type: 3}
+    - {fileID: 21300000, guid: 0cad3a5a8fe4d6a4cb9503a77f1cbbbe, type: 3}
+    - {fileID: 21300000, guid: 14f787345224f294a9c0739fb32136a3, type: 3}
 --- !u!114 &-1356473172055825562
 MonoBehaviour:
   m_ObjectHideFlags: 0

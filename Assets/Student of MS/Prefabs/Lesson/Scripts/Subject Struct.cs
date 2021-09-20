@@ -7,14 +7,16 @@ public struct SubjectStruct
 {
 
     public string Name;
+    public int Id;
     //How many clicks needs
     [SerializeField]
     private int _subjectHard;
-    public Sprite Sprite;
+    public List<Sprite> Sprite;
 
-    public SubjectStruct (string Name, int Hard, Sprite Sprite)
+    public SubjectStruct (string Name, int Id, int Hard, List<Sprite> Sprite)
     {
         this.Name = Name;
+        this.Id = Id;
         _subjectHard = Hard;
         this.Sprite = Sprite;
     }

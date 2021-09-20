@@ -30,4 +30,15 @@ public class Player : MonoBehaviour
     {
         _playerWallet.GoldAdd(amount);
     }
+
+    public int[] TakeBalance()
+    {
+        int[] balance = new int[2] {_playerWallet.Gold, _playerWallet.Energy};
+        return balance;
+    }
+
+    public void Loading(int[] wallet)
+    {
+        _playerWallet.LoadWallet(wallet);
+    }
 }

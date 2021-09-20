@@ -11,7 +11,7 @@ public class Content : MonoBehaviour
 
     public SubjectStruct TakeSubject()
     {
-        int i = Random.Range(0, _subjects.Count - 1);
+        int i = Random.Range(0, _subjects.Count);
         return _subjects[i];
     }
 

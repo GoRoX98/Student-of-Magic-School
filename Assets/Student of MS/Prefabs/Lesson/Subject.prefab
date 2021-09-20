@@ -99,8 +99,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _subject:
     Name: 
+    Id: 0
     _subjectHard: 0
-    Sprite: {fileID: 0}
+    Sprite:
+    - {fileID: 0}
+  _progress: 0
 --- !u!61 &2320275849696904717
 BoxCollider2D:
   m_ObjectHideFlags: 0

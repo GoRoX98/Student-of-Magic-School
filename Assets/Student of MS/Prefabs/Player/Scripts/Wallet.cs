@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Wallet : MonoBehaviour
 {
     [SerializeField] private int _gold = 0;
@@ -26,5 +27,11 @@ public class Wallet : MonoBehaviour
     public void EnergySpend(int Amount)
     {
         _energy -= Amount;
+    }
+
+    public void LoadWallet(int[] wallet)
+    {
+        _gold = wallet[0];
+        _energy = wallet[1];
     }
 }
